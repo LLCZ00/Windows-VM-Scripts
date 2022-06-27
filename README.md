@@ -22,15 +22,19 @@ Tools are downloaded to *C:\Users\Username\Desktop\ToolDownloads*, by default.
 - Keeping tools up to date without hardcoding links (see: previous bullet)
 - Download tools concurrently, to speed things up
 ## disable_defender.ps1
+*(Requires admin privliges)*<br/>
 Disables Windows Defender and Firewall, security settings that often get in the way of malware analysis. It just switches them on or off, so running the script again will reenable them.<br/>
-*(Requires admin privliges)*
 ### Issues & TODO
 - I only disabled *RealtimeMonitoring* from, because I'm unsure if anything else is required. Time will tell if this needs to be fixed.
 - Disable/enable firewall and Defender independantly
 - Settings may revert upon restart of the VM
 ## ip_switch.ps1
+*(Requires admin privliges)*<br/>
 Switches the IP configuration between "bridged adapter" and "internal" modes. Its purpose is for isolating the environment for dynamic analysis, and being able to quickly switch back to regular internet connectivity as needed.<br/>
-*(Requires admin privliges)*
+Default internal settings:
+- IP Address: 10.10.10.100/24
+- Default Gateway: 10.10.10.1
+- Preffered DNS: 10.10.10.1
 ### Issues & TODO
-- A way to change the defaults besides just going in the script and changing them (maybe)
+- A way to change the defaults besides just going into the script and changing them manually (maybe)
 - Currently no error handling
