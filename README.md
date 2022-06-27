@@ -32,6 +32,7 @@ Disables Windows Defender and Firewall, security settings that often get in the 
 ## ip_switch.ps1
 *(Requires admin privliges)*<br/>
 Switches the IP configuration between "bridged adapter" and "internal" modes. Its purpose is for isolating the environment for dynamic analysis, and being able to quickly switch back to regular internet connectivity as needed.<br/>
+It essentially just turns DHCP on and off. <br/>
 Default internal settings:
 - IP Address: 10.10.10.100/24
 - Default Gateway: 10.10.10.1
