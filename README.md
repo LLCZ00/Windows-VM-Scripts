@@ -10,6 +10,7 @@ Downloads and installs typical malware analysis tools:<br/>
 - IDA Pro (Free)
 - Python 3.10
 - Notepad++
+
 Setup executables are run (Wizard takes over), and archive files are unzipped to the desktop for easy access. <br/>
 Tools are downloaded to *C:\Users\Username\Desktop\ToolDownloads*, by default.
 ### Issues & TODO
@@ -38,3 +39,5 @@ Default internal settings:
 ### Issues & TODO
 - A way to change the defaults besides just going into the script and changing them manually (maybe)
 - Currently no error handling
+## Overall TODO
+- Megascript: Single script for downloading/running all of these
