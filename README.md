@@ -28,7 +28,7 @@ Disables Windows Defender and Firewall, security settings that often get in the 
 ### Issues & TODO
 - I only disabled *RealtimeMonitoring* from, because I'm unsure if anything else is required. Time will tell if this needs to be fixed.
 - Disable/enable firewall and Defender independantly
-- Settings may revert upon restart of the VM
+- !!! Defender resets itself when the machine restarts, but the firewalls do not. Messes everything up.
 ## ip_switch.ps1
 *(Requires admin privliges)*<br/>
 Switches the IP configuration between "bridged adapter" and "internal" modes. Its purpose is for isolating the environment for dynamic analysis, and being able to quickly switch back to regular internet connectivity as needed.<br/>
