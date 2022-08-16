@@ -17,11 +17,11 @@ Includes:
 $URLS =
 'https://www.7-zip.org/a/7z2200-x64.exe',
 'https://www.winitor.com/tools/pestudio/current/pestudio.zip',
-'https://out7.hex-rays.com/files/idafree77_windows.exe',
+'https://out7.hex-rays.com/files/idafree80_windows.exe',
 'https://download.sysinternals.com/files/SysinternalsSuite.zip',
 'https://ntcore.com/files/ExplorerSuite.exe',
 'https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe',
-'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.2/npp.8.4.2.Installer.x64.exe'
+'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.4/npp.8.4.4.Installer.x64.exe'
 
 $TOOLPATH = "$([System.Environment]::GetFolderPath('Desktop'))\ToolDownloads" # Tool directory
 $7ZIP = "$env:ProgramFiles\7-Zip\7z.exe" # Path to 7-Zip (REQUIRED)
