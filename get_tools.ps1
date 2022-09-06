@@ -11,6 +11,8 @@ Includes:
 - ExplorerSuite (CFF Explorer)
 - Python 3.10
 - Notepad++
+- Resource Hacker
+- dnSpy (64-bit)
 #>
 
 # Tool URLs 
@@ -21,7 +23,9 @@ $URLS =
 'https://download.sysinternals.com/files/SysinternalsSuite.zip',
 'https://ntcore.com/files/ExplorerSuite.exe',
 'https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe',
-'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.4/npp.8.4.4.Installer.x64.exe'
+'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.4/npp.8.4.4.Installer.x64.exe',
+'http://www.angusj.com/resourcehacker/reshacker_setup.exe',
+'https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip'
 
 $TOOLPATH = "$([System.Environment]::GetFolderPath('Desktop'))\ToolDownloads" # Tool directory
 $7ZIP = "$env:ProgramFiles\7-Zip\7z.exe" # Path to 7-Zip (REQUIRED)
