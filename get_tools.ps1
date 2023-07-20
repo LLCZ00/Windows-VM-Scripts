@@ -28,13 +28,13 @@ Tools I use, but have to be installed manually:
 
 # Tool URLs 
 $URLS =
-'https://www.7-zip.org/a/7z2201-x64.exe',
+'https://www.7-zip.org/a/7z2301-x64.exe',
 'https://www.winitor.com/tools/pestudio/current/pestudio.zip',
-'https://out7.hex-rays.com/files/idafree82_windows.exe',
+'https://out7.hex-rays.com/files/idafree83_windows.exe',
 'https://download.sysinternals.com/files/SysinternalsSuite.zip',
 'https://ntcore.com/files/ExplorerSuite.exe',
-'https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe',
-'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.8/npp.8.4.8.Installer.x64.exe',
+'https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe',
+'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.4/npp.8.5.4.Installer.x64.exe',
 'http://www.angusj.com/resourcehacker/reshacker_setup.exe',
 'https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip'
 
